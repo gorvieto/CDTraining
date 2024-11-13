@@ -5,9 +5,9 @@ pipeline:
   orgIdentifier: training_13thNov
   tags: {}
   stages:
-    - stage1:
+    - stage:
         name: Deploy
-        identifier: Deploy
+        #identifier: Deploy
         description: "CD Lab Sample Pipeline"
         type: Deployment
         spec:
