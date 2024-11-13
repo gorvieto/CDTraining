@@ -8,7 +8,7 @@ pipeline:
     - stage:
         name: Deploy
         identifier: Deploy
-        description: ""
+        description: "CD Lab Sample Pipeline"
         type: Deployment
         spec:
           deploymentType: Kubernetes
